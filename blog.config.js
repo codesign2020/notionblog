@@ -1,9 +1,9 @@
 const BLOG = {
   title: 'SherlockLau',
   author: 'Sherlock Lau',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
+  email: 'sherlocklau2020@outlook.com',
+  link: 'https://blog.sherlocklau.cc',
+  newsletter: 'sherlocklau',
   description: '自信成长，无惧悲伤',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -30,8 +30,8 @@ const BLOG = {
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/theSherlockLau',
-    github: 'https://github.com/izuolan',
-    telegram: 'https://t.me/zuolan'
+    //github: 'https://github.com/izuolan',
+   // telegram: 'https://t.me/zuolan'
   },
   seo: {
     keywords: ['Notionic', 'Zuolan', 'Blog'],
