@@ -1,9 +1,9 @@
 const BLOG = {
   title: 'SherlockLau',
   author: 'Sherlock Lau',
-  email: 'i@zuolan.me',
-  link: 'https://zuolan.me',
-  newsletter: 'Notionic Weekly',
+  email: 'sherlocklau2020@outlook.com',
+  link: 'https://sherlocklau.cc',
+  newsletter: 'sherlocklau',
   description: '自信成长，无惧悲伤',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
@@ -16,12 +16,12 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
+    newsletter: false,
     notes: true,
     projects: true,
     contact: true,
     books: true,
-    friends: true
+    friends: false
   },
   showWeChatPay: false,
   previewImagesEnabled: true,
@@ -31,7 +31,7 @@ const BLOG = {
   socialLink: {
     twitter: 'https://twitter.com/theSherlockLau',
     github: 'https://github.com/izuolan',
-   telegram: 'https://t.me/zuolan'
+    telegram: 'https://t.me/zuolan'
   },
   seo: {
     keywords: ['Design', 'sherlock', 'Blog'],
