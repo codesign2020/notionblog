@@ -16,11 +16,6 @@ const Logo = (props) => (
     <path d="M9.3906 2.48499H16.5009L11.7607 12.6764H4.65039L9.3906 2.48499Z" fill="black"/>
     <path d="M9.0512 22.6309L13.5709 12.9135H20.1585L15.6387 22.6309H9.0512Z" fill="white" stroke="black" stroke-width="0.474021"/>
     </g>
-    <defs>
-    <clipPath id="clip0_5_2">
-    <rect width="24" height="24" fill="white" transform="translate(0.5 0.5)"/>
-    </clipPath>
-    </defs>
   </svg>
 )
 
