@@ -26,7 +26,7 @@ const BLOG = {
   showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateHost: '#', // The link to generate OG image, don't end with a slash
+  ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/theSherlockLau',
