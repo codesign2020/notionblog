@@ -23,10 +23,10 @@ const BLOG = {
     books: true,
     friends: true
   },
-  showWeChatPay: true,
+  showWeChatPay: false,
   previewImagesEnabled: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar
-  ogImageGenerateHost: 'og-zl.vercel.app', // The link to generate OG image, don't end with a slash
+  // ogImageGenerateHost: '#', // The link to generate OG image, don't end with a slash
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/theSherlockLau',
@@ -34,7 +34,7 @@ const BLOG = {
    // telegram: 'https://t.me/zuolan'
   },
   seo: {
-    keywords: ['Notionic', 'Zuolan', 'Blog'],
+    keywords: ['Design', 'sherlock', 'Blog'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
