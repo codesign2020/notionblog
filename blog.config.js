@@ -1,8 +1,8 @@
 const BLOG = {
   title: 'SherlockLau',
   author: 'Sherlock Lau',
-  email: 'sherlocklau2020@outlook.com',
-  link: 'https://blog.sherlocklau.cc',
+  email: 'i@zuolan.me',
+  link: 'https://zuolan.me',
   newsletter: 'Notionic Weekly',
   description: '自信成长，无惧悲伤',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
