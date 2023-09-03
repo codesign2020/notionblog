@@ -174,10 +174,18 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className='flex items-center'>
           <Link passHref href='/' scroll={false} aria-label={BLOG.title}>
-            sherlock
-            <motion.div>
+              <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNSAyNSIgZmlsbD0ibm9u
+    ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwo
+    I2NsaXAwXzVfMikiPgo8cGF0aCBkPSJNOS4zOTA2IDIuNDg0OTlIMTYuNTAwOUwxMS43NjA3IDEy
+    LjY3NjRINC42NTAzOUw5LjM5MDYgMi40ODQ5OVoiIGZpbGw9ImJsYWNrIi8+CjxwYXRoIGQ9Ik05
+    LjA1MTIgMjIuNjMwOUwxMy41NzA5IDEyLjkxMzVIMjAuMTU4NUwxNS42Mzg3IDIyLjYzMDlIOS4w
+    NTEyWiIgZmlsbD0id2hpdGUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMC40NzQwMjEi
+    Lz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF81XzIiPgo8cmVjdCB3aWR0aD0iMjQi
+    IGhlaWdodD0iMjQiIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgwLjUgMC41KSIv
+    Pgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=" />
+            {/* <motion.div>
               <Logo className='h-6 hover:text-blue-500 dark:hover:text-blue-500 fill-current' />
-            </motion.div>
+            </motion.div> */}
           </Link>
           {navBarTitle ? (
             <p
