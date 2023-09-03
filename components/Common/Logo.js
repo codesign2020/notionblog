@@ -13,14 +13,14 @@ const Logo = (props) => (
     {...props}
   >
     <g clip-path="url(#clip0_5_2)">
-<path d="M49.2687 11H88.6716L62.403 67.4776H23L49.2687 11Z" fill="black"/>
-<path d="M47.3878 122.642L72.4347 68.791H108.941L83.8937 122.642H47.3878Z" stroke="black" stroke-width="2.62687"/>
-</g>
-<defs>
-<clipPath id="clip0_5_2">
-<rect width="133" height="133" fill="white"/>
-</clipPath>
-</defs>
+    <path d="M9.3906 2.48499H16.5009L11.7607 12.6764H4.65039L9.3906 2.48499Z" fill="black"/>
+    <path d="M9.0512 22.6309L13.5709 12.9135H20.1585L15.6387 22.6309H9.0512Z" fill="white" stroke="black" stroke-width="0.474021"/>
+    </g>
+    <defs>
+    <clipPath id="clip0_5_2">
+    <rect width="24" height="24" fill="white" transform="translate(0.5 0.5)"/>
+    </clipPath>
+    </defs>
   </svg>
 )
 
