@@ -30,8 +30,8 @@ const BLOG = {
   defaultCover: '/cover.jpg',
   socialLink: {
     twitter: 'https://twitter.com/theSherlockLau',
-    //github: 'https://github.com/izuolan',
-   // telegram: 'https://t.me/zuolan'
+    github: 'https://github.com/izuolan',
+   telegram: 'https://t.me/zuolan'
   },
   seo: {
     keywords: ['Design', 'sherlock', 'Blog'],
