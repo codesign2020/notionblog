@@ -3,7 +3,7 @@ const BLOG = {
   author: 'Sherlock Lau',
   email: 'sherlocklau2020@outlook.com',
   link: 'https://blog.sherlocklau.cc',
-  newsletter: 'sherlocklau',
+  newsletter: 'Notionic Weekly',
   description: '自信成长，无惧悲伤',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
