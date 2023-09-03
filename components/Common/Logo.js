@@ -12,25 +12,15 @@ const Logo = (props) => (
     }}
     {...props}
   >
-    <defs>
-        <linearGradient x1="41.6426121%" y1="33.9789712%" x2="66.8737926%" y2="78.5906929%" id="linearGradient-1">
-            <stop stop-color="#000000" offset="0%"></stop>
-            <stop stop-color="#6B6B6B" offset="100%"></stop>
-        </linearGradient>
-        <linearGradient x1="41.0902087%" y1="32.7458711%" x2="66.8737926%" y2="79.02194%" id="linearGradient-2">
-            <stop stop-color="#FB3E3E" offset="0%"></stop>
-            <stop stop-color="#B61010" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo备份" transform="translate(40.426000, 40.172000)">
-           
-            <g id="编组" transform="translate(0.000000, 0.000005)">
-                <polygon id="2" fill="url(#linearGradient-1)" transform="translate(18.392797, 30.652792) scale(-1, -1) translate(-18.392797, -30.652792) " points="18.3932458 20.6495935 31.6222235 20.6495935 18.3932458 40.6543826 5.16426812 40.6543826"></polygon>
-                <polygon id="1" fill="url(#linearGradient-2)" points="13.5516229 2.84217094e-14 27.1032832 2.84217094e-14 13.5516229 20.650117 0 20.650117"></polygon>
-            </g>
-        </g>
+    <g clip-path="url(#clip0_5_2)">
+      <path d="M53 24H83L63 67H33L53 24Z" fill="black" />
+      <path d="M51.568 109L70.6378 68H98.432L79.3622 109H51.568Z" fill="white" stroke="black" stroke-width="2" />
     </g>
+    <defs>
+      <clipPath id="clip0_5_2">
+        <rect width="133" height="133" fill="white" />
+      </clipPath>
+    </defs>
   </svg>
 )
 
