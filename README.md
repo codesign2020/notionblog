@@ -1,8 +1,5 @@
 # Notionic
 
-Notionic is a static blog that updates in real time, synchronizing changes to Notion pages without rebuilding the deployment.
-
-![Notionic](./banner.png)
 
 ## Demo
 
