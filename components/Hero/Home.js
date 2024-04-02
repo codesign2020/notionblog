@@ -27,8 +27,8 @@ const Hero = ({ blockMap }) => {
 
   return (
     <>
-      <div className='container mx-auto flex px-5 py-2 mb-10 md:flex-row flex-col items-center'>
-        <div className='flex flex-col md:w-3/5 md:items-start mb-6 md:mb-0 text-left'>
+      <div className='container mx-auto flex px-4 py-2 mb-10 flex-col items-left'>
+        <div className='flex flex-col md:items-start mb-6 md:mb-0 text-left'>
           <NotionRenderer
             className='md:ml-0'
             blockMap={blockMap}
@@ -36,7 +36,7 @@ const Hero = ({ blockMap }) => {
             subPageTitle={null}
           />
           <Social />
-          {/* <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
+          <div className='flex flex-col sm:flex-row sm:justify-center gap-4 mt-6'>
             <Link passHref href='/contact' scroll={false}>
               <button className='w-full bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 inline-flex py-3 px-5 rounded-lg items-center'>
                 <MailIcon className='inline-block text-gray-600 dark:text-day h-7 w-7 mt-1' />
@@ -77,11 +77,11 @@ const Hero = ({ blockMap }) => {
                 </span>
               </button>
             )}
-          </div> */}
+          </div>
         </div>
-        <div className='w-2/5'>
-          <Avatar className='text-gray-600 dark:text-gray-300' />
-        </div>
+        // <div className='w-2/5'>
+        //   <Avatar className='text-gray-600 dark:text-gray-300' />
+        // </div>
       </div>
     </>
   )
