@@ -174,7 +174,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
       >
         <div className='flex items-center'>
           <Link passHref href='/' scroll={false} aria-label={BLOG.title}>
-          <span class="logo-font">Sherlock Lau<span>
+          <span class="logo-font">Sherlock Lau</span>
             {/*   <img alt="" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjUiIHZpZXdCb3g9IjAgMCAyNSAyNSIgZmlsbD0ibm9u
     ZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwo
     I2NsaXAwXzVfMikiPgo8cGF0aCBkPSJNOS4zOTA2IDIuNDg0OTlIMTYuNTAwOUwxMS43NjA3IDEy
