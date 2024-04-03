@@ -106,11 +106,11 @@ nav {
 }
 
 
-
-
+// custom the logo font
 .logo-font{
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 1.8em;
 }
