@@ -30,7 +30,7 @@ export async function getStaticProps() {
 const newsletter = ({ posts, blockMap }) => {
   return (
     <Container title={BLOG.newsletter} description={BLOG.description}>
-      <NewsletterHero blockMap={blockMap} />
+      // <NewsletterHero blockMap={blockMap} />
       {posts.map((post) => (
         <BlogPost key={post.id} post={post} />
       ))}
