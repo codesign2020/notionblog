@@ -2,10 +2,10 @@ const BLOG = {
   title: 'SherlockLau',
   author: 'Sherlock Lau',
   email: 'sherlocklau2020@outlook.com',
-  link: 'https://sherlocklau.cc',
+  link: '#',
   newsletter: 'sherlocklau',
-  description: '自信成长，无惧悲伤',
-  lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
+  description: '',
+  lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   timezone: 'Asia/Shanghai', // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options.
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
