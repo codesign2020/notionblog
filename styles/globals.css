@@ -116,6 +116,6 @@ nav {
 
 @media (min-width: 1280px) {
   .xl\:block {
-    display: none;
+    display: none !important;
   }
 }
