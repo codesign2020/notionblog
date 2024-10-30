@@ -119,3 +119,12 @@ nav {
     display: none !important;
   }
 }
+
+.font-medium{
+  font-weight: 600 !important;
+}
+.md-cover{
+
+  --tw-gradient-from: #e6e7e7 var(--tw-gradient-from-position) !important;
+
+}
