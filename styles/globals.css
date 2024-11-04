@@ -31,7 +31,7 @@ html::-webkit-scrollbar-thumb {
   position: sticky;
   z-index: 10;
   top: -1px;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(35px);
   transition: all 0.5s cubic-bezier(0.4, 0, 0, 1);
   border-bottom-color: transparent;
 }
