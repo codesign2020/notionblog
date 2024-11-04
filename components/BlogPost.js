@@ -14,6 +14,7 @@ const BlogPost = ({ post }) => {
           className='group flex flex-col overflow-hidden relative mb-5 md:mb-8 cursor-pointer rounded-xl p-5'
         >
           <Image
+            style={{ opacity: 0.6 }}
             fill
             alt={`${post.title}`}
             src={post?.page_cover}
